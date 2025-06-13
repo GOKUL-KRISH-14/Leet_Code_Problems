@@ -1,0 +1,28 @@
+package com.problems.array;
+
+public class BuyAndSellStockII 
+{
+	public static int buyAndSellStockII(int prices[])
+	{
+		if(prices.length==0 || prices==null)
+		{
+			return 0;
+		}
+		
+		int maxProfit=0;
+		int n=prices.length;
+		
+		
+		// Loop from the second day to the end
+		for(int i=1;i<n;i++)
+		{
+			// If today's price is higher than yesterday's, we make a profit
+			if(prices[i]>prices[i-1])
+			{
+				maxProfit+=prices[i]-prices[i-1];
+			}
+		}
+		return maxProfit;
+	}
+
+}

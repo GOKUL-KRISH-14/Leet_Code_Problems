@@ -1,0 +1,60 @@
+package com.problems.array;
+
+import java.util.HashMap;
+
+/*
+Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+ */
+public class RomanToInteger 
+{
+	public static int romanToInt(String s)
+	{
+		HashMap<Character,Integer> map=new HashMap<Character,Integer>();
+		
+		map.put('I', 1);
+		map.put('V', 5);
+		map.put('X', 10);
+		map.put('L', 50);
+		map.put('C', 100);
+		map.put('D', 500);
+		map.put('M', 1000);
+		
+		int result=0;
+		int preValue=0;
+		
+		for(int i=s.length()-1;i>=0;i--)
+		{
+			int currentValue=map.get(s.charAt(i));
+			
+			if(currentValue<preValue)
+			{
+				result-=currentValue;
+			}
+			else
+			{
+				result+=currentValue;
+			}
+			preValue=currentValue;
+		}
+		
+		return result;		
+	}
+
+	public static void main(String args[])
+	{
+		String s="M";
+		
+		int result=romanToInt(s);
+		
+		System.out.println("The Equal value of the Roman: "+s+" to Integer Value is: "+result);
+	}
+}

@@ -1,0 +1,60 @@
+package com.problems.array;
+
+/*
+
+Leet code Problem Number :- 27
+Leet code Problem Name   :- Remove Element
+
+Example 1:
+
+Input: nums = [1,1,1,2,2,3]
+Output: 5, nums = [1,1,2,2,3,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
+Complexties:-
+
+1. Time Complexity  :- O(n)
+2. Space Complexity :- O(1)
+
+ */
+
+
+public class Remove_Dupliactes_From_Sorted_Array_II 
+{
+	public static int sortedArrayII(int nums[])
+	{
+		int n=nums.length;
+		
+		if(nums.length<=2)
+		{
+			return n;
+		}
+		
+		// Start from index 2 (first two elements are always valid)
+		int k=2;
+		
+		
+		for(int i=2;i<n;i++)
+		{
+			if(nums[i]!=nums[k-2])
+			{
+				nums[k]=nums[i];
+				k++;
+			}
+		}
+		return k;
+	}
+	
+	public static void main(String args[])
+	{
+		int nums[]= {1,1,1,2,2,3};
+		int result=sortedArrayII(nums);
+		
+		for(int i=0;i<result;i++)
+		{
+			System.out.println(nums[i]);
+		}
+	}
+
+}

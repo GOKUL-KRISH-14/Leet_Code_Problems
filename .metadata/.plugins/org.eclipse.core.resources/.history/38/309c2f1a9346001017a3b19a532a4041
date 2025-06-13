@@ -1,0 +1,51 @@
+package com.problems.array;
+
+/*
+Leet code Problem Number :- 27
+Leet code Problem Name   :- Remove Element
+
+Example 1:
+
+Input: nums = [3,2,2,3], val = 3
+Output: 2, nums = [2,2,_,_]
+
+Explanation: Your function should return k = 2, with the first two elements of nums being 2.
+It does not matter what you leave beyond the returned k (hence they are underscores).
+
+Complexties:-
+
+1. Time Complexity  :- O(n)
+2. Space Complexity :- O(1)
+
+ */
+public class Remove_Element 
+{
+	public static int removeELement(int nums[],int val)
+	{
+		int k=0;
+		int n=nums.length;
+		
+		for(int i=0;i<n;i++)
+		{
+			if(nums[i]!=val)
+			{
+				nums[k++]=nums[i];
+			}
+		}
+		return k;
+	}
+	
+	public static void main(String args[])
+	{
+		int[] nums= {1,2,3};
+		int value=2;
+		
+		int result=removeELement(nums,value);
+		
+		for(int i=0;i<result;i++)
+		{
+          System.out.println(nums[i]);			
+		}
+		
+	}
+}
