@@ -46,10 +46,6 @@ public class Length_Last_Word
 		int result=lengthLastWord(inputString);
 		
 		System.out.println("The Length of the Last Word of the String is: "+result);
-		
-		
-		
-		
 	}
 
 }
