@@ -16,20 +16,26 @@ public class Length_Last_Word
 {
 	public static int lengthLastWord(String s)
 	{
-		int start=s.length()-1;
-		int length=0;
+		// Start from the end of the string
+		int start = s.length() - 1; 
+
+		// To store the length of the last word
+		int length = 0; 
 		
+		// Skip trailing spaces at the end of the string
 		while(start>=0 && s.charAt(start)==' ')
 		{
 			start--;
 		}
 		
+		// Count the characters of the last word
 		while(start>=0 && s.charAt(start)!=' ')
 		{
 			start--;
 		    length++;
 		}
 		
+		// Return the length of the last word
 		return length;
 	}
 	
