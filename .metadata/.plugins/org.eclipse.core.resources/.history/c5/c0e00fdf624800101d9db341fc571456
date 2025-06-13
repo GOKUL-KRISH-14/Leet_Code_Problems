@@ -22,18 +22,13 @@ Input: ratings = [1,0,2]
 Output: 5
 Explanation:
  You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
- 
- Complexties:-
-1. Time Complexity  :- O(n)
-2. Space Complexity :- O(1)
  */
 
-//Greedy Algorithm
+
 public class Candies 
 {
 public static int candiesProblem(int ratings[])
 {
-	
 	int n=ratings.length;
 	
 	int candies[]=new int[n];

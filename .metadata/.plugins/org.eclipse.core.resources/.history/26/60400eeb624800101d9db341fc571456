@@ -28,12 +28,12 @@ Explanation:
 2. Space Complexity :- O(1)
  */
 
-//Greedy Algorithm
+
 public class Candies 
 {
 public static int candiesProblem(int ratings[])
 {
-	
+	// Greedy Algorithm
 	int n=ratings.length;
 	
 	int candies[]=new int[n];
