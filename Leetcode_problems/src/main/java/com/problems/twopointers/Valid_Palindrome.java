@@ -16,10 +16,17 @@ Input: s = "A man, a plan, a canal: Panama"
 Output: true
 Explanation: "amanaplanacanalpanama" is a palindrome.
 
+<<<<<<< HEAD
 Complexties:-
 
 Time Complexity: O(n)
 Space Complexity : O(1)
+=======
+Complexities :-
+1. Time Complexity :- O(n)
+2. Space Complexity :- 0(1)
+
+>>>>>>> 40c61bd92b0817934ac3d851c2c9c697106eef16
  */
 public class Valid_Palindrome 
 {
