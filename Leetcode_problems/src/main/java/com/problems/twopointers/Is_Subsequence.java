@@ -1,0 +1,69 @@
+package com.problems.twopointers;
+
+/*
+
+ 1. Leet Code Problem Number :- 328
+ 2. Leet Code Problem Name :- IsSubsequence
+ 
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+A subsequence of a string is a new string that is formed from the original string by deleting some 
+(can be none) of the characters without disturbing the relative positions of the remaining characters.
+(i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+Example 1:
+Input: s = "abc", t = "ahbgdc"
+Output: true
+
+Complexties :-
+
+Time Complexity: O(n)
+Space Complexity : O(1)
+
+ */
+
+public class Is_Subsequence 
+{
+	public static boolean isSubsequence(String s,String t)
+	{
+		// Pointer for string s
+		int i=0;
+		
+		// Pointer for string t
+		int j=0;
+		
+		int m=s.length();
+		int n=t.length();
+		
+		// Traverse both strings
+		while(i<m && j<n)
+		{
+			// If characters match, move the pointer for s
+			if(s.charAt(i)==s.charAt(j))
+			{
+				i++;
+			}
+			// Always move the pointer for t
+			j++;
+		}
+		// If i has reached the end of s, then s is a subsequence of t
+		return i==m;
+	}
+	
+	public static void main(String args[])
+	{
+		String input_1="abc";
+		String input_2="ahbgdc";
+		
+		boolean result=isSubsequence(input_1,input_2);
+		
+		if(result)
+		{
+			System.out.println("THE GIVEN STRING IS ISSUBSEQUENCE");
+		}
+		else
+		{
+			System.out.println("THE GIVEN STRING IS NOT A ISSUBSEQUENCE");
+		}
+	}
+
+}
