@@ -32,7 +32,11 @@ Complexity :-
 1. Time Complexity :- O(n)
 2. Space Complexity :- O(n)
 
+
  */
+
+import java.util.*; // Importing utility package for HashMap and Arrays
+
 public class Two_Sum_Problem 
 {
 
