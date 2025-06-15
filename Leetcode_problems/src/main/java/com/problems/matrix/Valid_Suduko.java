@@ -107,10 +107,6 @@ public class Valid_Suduko
     	{
     		System.out.println("\n The Given Sudoku Board is Valid");	
     	}
-    		
-    
-    
-    
     }
     
 }
