@@ -1,0 +1,73 @@
+package com.problems.matrix;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+Given an m x n matrix, return all elements of the matrix in spiral order.
+
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+
+Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+ */
+
+public class Sprial_Matrix 
+{
+	public static List<Integer> sprialMatrix(int[][] matrix)
+	{
+		List<Integer> result=new ArrayList<Integer>();
+		
+		int m=matrix.length;
+		int n=matrix[0].length;
+		
+		int left=0;
+		int right=m-1;
+		
+		int top=0;
+		int bottom=n-1;
+		
+		while(left<=right && top<=bottom)
+		{
+			for(int i=left;i<=right;i++)
+			{
+				result.add(matrix[top][i]);
+			}
+			top++;
+			
+			for(int i=top;i<=bottom;i++)
+			{
+				result.add(matrix[right][i]);
+			}
+			right--;
+			
+			if(top<=bottom)
+			{
+				for(int i=left;i>=right;i--)
+				{
+					result.add(matrix[bottom][i]);
+				}
+				bottom--;
+			}
+			
+			if(left<=right)
+			{
+				for(int i=bottom;i>=top;i--)
+				{
+					result.add(matrix[left][i]);
+				}
+				left++;
+			}
+		}
+		return result;
+	}
+	public static void main(String args[])
+	{
+		int matrix[][]= {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+		
+		List<Integer> result=sprialMatrix(matrix);
+		
+		System.out.println(result);
+	}
+}
