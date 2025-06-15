@@ -29,8 +29,6 @@ Output: false
 Explanation:
 The strings s and t can not be made identical as 'o' needs to be mapped to both 'a' and 'r'.
 
-Complexity :-
-
 1. Time Complexity: O(n)
 2. Space Complexity: O(1)
  */
