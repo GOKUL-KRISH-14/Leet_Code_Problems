@@ -1,0 +1,50 @@
+package com.problems.hashmap;
+
+public class Valid_Anagram 
+{
+	public static boolean isValidAnagram(String s,String t)
+	{
+		// If lengths are different, they can't be anagrams
+		if(s.length()!=t.length())
+		{
+			return false;
+		}
+		
+		// Create a count array to store frequency of each character (26 lowercase letters)
+		int count[]=new int[26];
+		
+		// Loop through both strings at the same time
+		for(int i=0;i<s.length();i++)
+		{
+			count[s.charAt(i)-'a']++;
+			count[t.charAt(i)-'a']--;
+		}
+		
+		for(int c:count)
+		{
+			if(c!=0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public static void main(String args[])
+	{
+		String s="ramar";
+		String t="armra";
+		
+		boolean result=isValidAnagram(s,t);
+		
+		if(result)
+		{
+			System.out.println("\n THE GIVEN STRING IS ANANGRAM");
+		}
+		else
+		{
+			System.out.println("\n THE GIVEN STRING IS NOT ANANGRAM");
+		}
+	}
+
+}
