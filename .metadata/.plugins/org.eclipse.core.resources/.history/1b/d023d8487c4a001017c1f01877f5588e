@@ -62,7 +62,6 @@ public class Two_Sum_Problem
 				right--;
 			}
 		}
-		// This line will never be reached as input always has one solution
 		return new int[] {-1,-1};
 	}
 	public static void main(String args[])

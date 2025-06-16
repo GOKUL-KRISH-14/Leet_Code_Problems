@@ -53,16 +53,13 @@ public class Two_Sum_Problem
 			}
 			else if(sum<target)
 			{
-				// If sum is too small, move left pointer to the right to increase sum
 				left++;
 			}
 			else
 			{
-				// If sum is too big, move right pointer to the left to decrease sum
 				right--;
 			}
 		}
-		// This line will never be reached as input always has one solution
 		return new int[] {-1,-1};
 	}
 	public static void main(String args[])
