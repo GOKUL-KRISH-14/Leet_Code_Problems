@@ -1,0 +1,43 @@
+package com.problems.hashmap;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Longest_Consecutive_Sequence 
+{
+	public static int longest_Sequence(int nums[])
+	{
+		if(nums==null || nums.length==0)
+		{
+			return 0;
+		}
+		
+		Set<Integer> set=new HashSet<Integer>();
+		
+		for(int num:nums)
+		{
+			set.add(num);
+		}
+		
+		int longest_Streak=0;
+		
+		for(int num:set)
+		{
+			if(!set.contains(num-1))
+			{
+				int currentNum=num;
+				int currentStreak=1;
+				
+				
+				while(set.contains(currentNum+1))
+				{
+					currentNum++;
+					currentStreak++;
+				}
+				longest_Streak=Math.max(longest_Streak,currentStreak);
+			}
+		}
+		return longest_Streak;
+	}
+
+}
