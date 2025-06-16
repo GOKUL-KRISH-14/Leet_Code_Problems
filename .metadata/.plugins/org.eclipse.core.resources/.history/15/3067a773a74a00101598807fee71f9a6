@@ -1,9 +1,6 @@
 package com.problems.binarysearch;
 
 /*
-1. Leet Code Problem Number :- 352
-2. Leet Code Problem Name :- Search Insert Position
-
 Given a sorted array of distinct integers and a target value, 
 return the index if the target is found. 
 If not, return the index where it would be if it were inserted in order.
@@ -26,6 +23,7 @@ Complexity :-
 2. Space COmplexity :- O(1)
 
  */
+
 
 public class Search_Insert_Position 
 {
