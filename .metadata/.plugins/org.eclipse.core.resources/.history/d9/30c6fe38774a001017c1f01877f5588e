@@ -3,8 +3,6 @@ package com.problems.string;
 /*
 
 Leet code Problem Number :- 151
-Leet code Problem Name :- Reverse the words in a string
-
 Given an input string s, reverse the order of the words.
 
 A word is defined as a sequence of non-space characters. 
