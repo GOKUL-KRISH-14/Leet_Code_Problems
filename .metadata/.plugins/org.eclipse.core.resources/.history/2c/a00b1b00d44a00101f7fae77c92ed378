@@ -23,11 +23,6 @@ Output: 4
 
 Complexity :-
 
-Complexity :-
-
-1. Time Complexity :- O(Log N)
-2. Space COmplexity :- O(1)
-
  */
 
 public class Search_In_Rotated_Array 
