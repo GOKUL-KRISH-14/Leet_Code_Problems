@@ -1,0 +1,63 @@
+package com.problems.backtracking;
+
+/*
+The n-queens puzzle is the problem of placing n queens on an n x n chessboard 
+such that no two queens attack each other.
+
+Given an integer n, return the number of distinct solutions to the n-queens puzzle.
+
+ */
+
+public class N_Queens_II 
+{
+	// To count the number of valid solutions
+	static int count=0;
+	
+	private static int nQueensProblem(int n)
+	{
+		
+		// Create tracking arrays:
+		
+		// Columns
+		boolean cols[]=new boolean[n];
+		
+		// Main diagonals (row - col + n - 1)
+		boolean diag1[]=new boolean[2*n-1];
+		
+		// Anti-diagonals (row + col)
+		boolean diag2[]=new boolean[2*n-1];
+		
+		// Start backtracking from row 0
+		backTrack(0,n,cols,diag1,diag2);
+		
+		return count;
+	}
+
+	private static void backTrack(int row, int n, boolean[] cols, boolean[] diag1, boolean[] diag2) 
+	{
+		if(row==n)
+		{
+			count++;
+			return;
+		}
+		
+		for(int col=0;col<n;col++)
+		{
+			int d1=row-col+1;
+			int d2=row+col;
+			
+			if(cols[col]||diag1[d1]||diag2[d2])
+			{
+				continue;
+			}
+			
+			cols[col]=diag1[d1]=diag2[d2]=true;
+			backTrack(row+1,n,cols,diag1,diag2);
+			cols[col]=diag1[d1]=diag2[d2]=false;		
+	}
+		
+	}
+	
+	
+
+}
