@@ -1845,3 +1845,148 @@
 2025-06-16 20:47:56,084 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
 2025-06-16 20:47:56,086 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-06-16 20:47:56,087 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 21:56:00,408 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 21:56:00,409 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 21:56:00,411 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 21:56:00,411 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:03:03,265 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:03:03,266 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:03:03,268 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:03:03,269 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:03:43,457 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:03:43,458 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:03:43,459 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:03:43,460 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:15:19,676 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:19,677 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:15:19,681 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:19,682 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:15:30,206 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:30,207 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:15:30,209 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:30,210 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:15:41,778 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:41,778 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:15:41,780 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:41,781 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:15:51,725 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:51,726 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:15:51,727 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:15:51,727 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:16:00,703 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:00,704 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:16:00,705 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:00,705 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:16:12,985 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:12,986 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:16:12,987 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:12,987 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:16:47,770 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:47,771 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:16:47,773 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:47,773 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:16:56,448 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:56,449 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:16:56,450 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:16:56,451 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:17:05,721 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:17:05,721 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:17:05,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:17:05,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:18:22,280 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:22,280 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:18:22,282 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:22,282 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:18:34,143 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:34,144 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:18:34,146 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:34,146 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:18:46,860 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:46,860 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:18:46,862 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:18:46,863 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:19:17,470 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:19:17,470 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:19:17,472 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:19:17,472 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:33:39,135 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:33:39,135 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:33:39,139 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:33:39,139 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:34:44,516 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:34:44,516 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:34:44,518 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:34:44,519 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:35:53,539 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:35:53,539 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:35:53,541 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:35:53,541 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:37:16,489 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:37:16,490 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:37:16,492 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:37:16,493 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:38:43,300 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:38:43,300 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:38:43,302 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:38:43,302 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:38:45,454 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:38:45,454 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:38:45,455 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:38:45,456 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:41:35,771 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:41:35,771 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:41:35,772 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:41:35,773 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:42:41,531 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:42:41,531 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:42:41,532 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:42:41,533 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:46:45,238 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:46:45,239 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:46:45,240 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:46:45,240 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:46:56,256 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:46:56,257 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:46:56,258 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:46:56,259 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:48:32,240 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:48:32,240 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:48:32,242 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:48:32,242 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:49:20,736 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:49:20,736 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:49:20,738 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:49:20,738 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:49:41,983 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:49:41,983 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:49:41,985 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:49:41,985 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 22:50:03,494 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:50:03,495 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 22:50:03,496 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 22:50:03,496 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 23:09:05,367 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 23:09:05,367 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 23:09:05,370 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 23:09:05,370 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-16 23:10:11,742 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 23:10:11,743 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-16 23:10:11,745 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-16 23:10:11,745 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-17 11:40:18,182 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-06-17 12:08:28,169 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:08:28,173 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-17 12:08:28,178 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:08:28,178 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-17 12:08:42,027 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:08:42,027 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-17 12:08:42,030 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:08:42,031 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-17 12:12:43,411 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:12:43,411 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-17 12:12:43,414 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:12:43,414 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
+2025-06-17 12:12:52,004 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:12:52,005 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\main\resources
+2025-06-17 12:12:52,007 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-17 12:12:52,007 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\LEET_CODE_PROBLEMS\Leetcode_problems\src\test\resources
