@@ -60,11 +60,7 @@ private static void backTrack(int[] candidate, int target, ArrayList path, int s
 	{
 		// Choose candidate[i]
 		path.add(candidate[i]);
-		
-		// Recurse with updated target
 		backTrack(candidate,target-candidate[i],path,i,result);
-		
-		// Backtrack: remove last added element
 		path.remove(path.size()-1);
 	}
 }
@@ -81,4 +77,5 @@ public static void main(String[] args)
         System.out.println(combination);
     }
 }
+
 }

@@ -41,30 +41,21 @@ private static List<List<Integer>> combination_Sum(int candidate[],int target)
 //Recursive backtracking method to find valid combinations
 private static void backTrack(int[] candidate, int target, ArrayList path, int start, List<List<Integer>> result) 
 {
-	// if target becomes 0, a valid combination is found
 	if(target==0)
 	{
-		// Add a deep copy of the current combination
 		result.add(new ArrayList<>(path));
 		return;
 	}
 	
-	// If target becomes negative, this path is invalid
 	if(target<0)
 	{
 		return;
 	}
 	
-	// Try each candidate starting from current index 'start'
 	for(int i=start;i<candidate.length;i++)
 	{
-		// Choose candidate[i]
 		path.add(candidate[i]);
-		
-		// Recurse with updated target
 		backTrack(candidate,target-candidate[i],path,i,result);
-		
-		// Backtrack: remove last added element
 		path.remove(path.size()-1);
 	}
 }
@@ -81,4 +72,5 @@ public static void main(String[] args)
         System.out.println(combination);
     }
 }
+
 }
