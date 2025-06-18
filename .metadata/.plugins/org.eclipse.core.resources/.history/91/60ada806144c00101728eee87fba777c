@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-
-1. Leet Code Problem Number :- 22
-2. Leet Code Problem Name :- Generate Parenthesis
-
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 
 Example 1:
