@@ -28,7 +28,7 @@ public class MaxmiumSubArray
 		int maxSum=nums[0];
 		
 		// Stores the maximum sum ending at the current position
-		int curSum=nums[0];
+		int curSum=0;
 		
 		for(int i=0;i<nums.length;i++)
 		{

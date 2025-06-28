@@ -1,0 +1,26 @@
+package com.problems.slidingwindow;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Substring_Concatenation_Of_All_Words 
+{
+	private static List<Integer> substring_Concatenation(String s,String words[])
+	{
+		List<Integer> result=new ArrayList<Integer>();
+		
+		if(s.length()==0|| s==null || words.length==0 || words==null)
+		{
+			return result;
+		}
+		
+		int wordLen=words[0].length();
+		int wordCount=words.length;
+		int totalLen=wordLen*wordCount;
+		
+		
+		
+		
+	}
+
+}
