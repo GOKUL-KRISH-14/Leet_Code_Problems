@@ -1,0 +1,45 @@
+package com.problems.binarytree;
+
+public class Minimum_Depth_Tree 
+{
+	private static int minDepth(TreeNode root)
+	{
+		if(root==null)
+		{
+			return 0;
+		}
+		
+		if(root.left==null)
+		{
+			return 1+minDepth(root.right);
+		}
+		
+		if(root.right==null)
+		{
+			return 1+minDepth(root.left);
+		}
+		
+		return 1+Math.min(minDepth(root.left), minDepth(root.right));
+	}
+	
+public static void main(String[] args) 
+{	
+    /*
+          1
+         / \
+        2   3
+       / \
+      4   5
+    */
+
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.right = new TreeNode(5);
+
+    int depth = minDepth(root);
+    System.out.println("Minimum Depth of the tree: " + depth);
+
+}
+}

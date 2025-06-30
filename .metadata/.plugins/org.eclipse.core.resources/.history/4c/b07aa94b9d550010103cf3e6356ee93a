@@ -1,0 +1,152 @@
+package com.problems.binarytree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+// Class representing each node of the tree
+class TreeNode
+{
+	int val;
+	TreeNode left;
+	TreeNode right;
+
+	public TreeNode(int val)
+	{
+		this.val=val;
+	}
+}
+public class BinaryTreeTraversals
+{
+ // Inorder Traversal (Left, Node, Right)
+ private static void inOrder(TreeNode root)
+ {
+     if(root==null)
+     {
+    	// Base case: empty subtree
+         return;
+     }
+     
+     // Visit left subtree
+     inOrder(root.left);
+     
+     // Visit current subtree
+     System.out.print(root.val+"->");
+     
+     // Visit left subtree
+     inOrder(root.right);
+ }
+ 
+ // Preorder Traversal ( Node,Left, Right)
+ private static void preOrder(TreeNode root)
+ {
+	 if(root==null)
+	 {
+		// Base case: empty subtree
+		 return;
+	 }
+	 
+	 // Visit current subtree
+	 System.out.print(root.val+"->");
+	 
+	// Visit left subtree
+	 preOrder(root.left);
+	 
+	// Visit right subtree
+	 preOrder(root.right);
+ }
+ 
+ // Post order Traversal ( Left, Right, Node)
+ private static void postOrder(TreeNode root)
+ {
+	// Base case: empty subtree
+	 if(root==null)
+	 {
+		 return;
+	 }
+	 
+	// Visit left subtree
+	 postOrder(root.left);
+	 
+	// Visit right subtree
+	 postOrder(root.right);
+	 
+	// Visit current subtree
+	 System.out.print(root.val+"->");
+ }
+ 
+//Level Order Traversal (Breadth-First Search)
+ private static void levelOrder(TreeNode root)
+ {
+	 if(root==null)
+	 {
+		 return;
+	 }
+	 
+	// Queue for BFS
+	 Queue<TreeNode> queue=new LinkedList<>();
+	 
+	// Add root to queue
+	 queue.offer(root);
+	 
+	 while(!queue.isEmpty())
+	 {
+		// Remove front node
+		 TreeNode current=queue.poll();
+		 
+		// Visit current node
+		 System.out.print(current.val+"->");
+		 
+		 if(current.left!=null)
+		 {
+			// Add left child
+			 queue.offer(current.left);
+		 }
+		 
+		 if(current.right!=null)
+		 {
+			// Add right child
+			 queue.offer(current.right);
+		 }
+	 }
+	 
+ }
+ public static void main(String args[])
+ {
+     TreeNode root=new TreeNode(1);
+     root.left=new TreeNode(2);
+     root.right=new TreeNode(3);
+     root.left.left=new TreeNode(4);
+     root.left.right=new TreeNode(5);
+     
+     /*
+     Example Tree Structure:
+           1
+          / \
+         2   3
+        / \
+       4   5
+  */
+      
+     System.out.println("\nIN ORDER TRAVERSAL");
+     inOrder(root);
+     System.out.print("\n");
+     
+     System.out.println("\nPRE ORDER TRAVERSAL");
+     preOrder(root);
+     System.out.print("\n");
+     
+     System.out.println("\nPOST TRAVERSAL");
+     postOrder(root);
+     System.out.print("\n");
+     
+     System.out.println("\nLEVEL ORDER TRAVERSAL");
+     levelOrder(root);
+     System.out.print("\n");
+     
+     
+     
+ }
+}
+
+
+

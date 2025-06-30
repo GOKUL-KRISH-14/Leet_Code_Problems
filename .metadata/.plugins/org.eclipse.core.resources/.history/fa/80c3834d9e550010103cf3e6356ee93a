@@ -1,0 +1,18 @@
+package com.problems.binarytree;
+
+public class Minimum_Depth_Tree 
+{
+	private static int minDepth(TreeNode root)
+	{
+		if(root==null)
+		{
+			return 0;
+		}
+		
+		int left=minDepth(root.left);
+		int right=minDepth(root.right);
+		
+		return 1+Math.min(left, right);
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.problems.array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Frequency_Of_Each_Element 
+{
+	private static void frequency_Element(int nums[])
+	{
+		Map<Integer,Integer> freqMap=new HashMap<>();
+		
+		for(int num:nums)
+		{
+			freqMap.put(num,freqMap.getOrDefault(num, 0)+1);
+		}
+		
+		for(Map.Entry<Integer, Integer> entry:freqMap.entrySet())
+		{
+			System.out.println("Element: "+entry.getKey()+" Frequency is: "+entry.getValue());
+		}
+		
+	}
+	
+	public static void main(String args[])
+	{
+		int nums[]= {1,1,2};
+		
+		frequency_Element(nums);
+	}
+
+}

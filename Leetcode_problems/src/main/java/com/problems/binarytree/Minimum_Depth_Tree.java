@@ -1,0 +1,51 @@
+package com.problems.binarytree;
+
+public class Minimum_Depth_Tree 
+{
+	private static int minDepth(TreeNode root)
+	{
+		if(root==null)
+		{
+			return 0;
+		}
+		
+		// If left subtree is null, we must go through the right subtree
+		if(root.left==null)
+		{
+	        // Add 1 for the current node and compute depth of right subtree
+			return 1+minDepth(root.right);
+		}
+		
+		  // If right subtree is null, we must go through the left subtree
+	    if (root.right == null)
+	    {
+	        // Add 1 for the current node and compute depth of left subtree
+	        return 1 + minDepth(root.left);
+	    }
+	    
+	    // If both left and right subtrees exist,
+	    // return 1 (current node) + minimum of left and right subtree depths
+		return 1+Math.min(minDepth(root.left), minDepth(root.right));
+	}
+	
+public static void main(String[] args) 
+{	
+    /*
+          1
+         / \
+        2   3
+       / \
+      4   5
+    */
+
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(3);
+    root.left.left = new TreeNode(4);
+    root.left.right = new TreeNode(5);
+
+    int depth = minDepth(root);
+    System.out.println("Minimum Depth of the tree: " + depth);
+
+}
+}

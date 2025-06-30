@@ -1,0 +1,28 @@
+package com.problems.string;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Find_The_First_Repeated_Non_Characters 
+{
+	private static Character non_Repeated_Characters(char names[])
+	{
+		Map<Character,Integer> map=new HashMap<>();
+		
+		for(char ch:names)
+		{
+			map.put(ch, map.getOrDefault(ch, 0)+1);
+		}
+	
+		for(char ch:names)
+		{
+			if(map.get(ch)==1)
+			{
+				return ch;
+			}
+		}
+		
+		return null;
+	}
+
+}

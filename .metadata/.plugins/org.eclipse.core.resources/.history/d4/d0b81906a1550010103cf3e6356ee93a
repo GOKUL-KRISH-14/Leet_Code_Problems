@@ -1,0 +1,86 @@
+package com.problems.binarytree;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class Zigzag_Order_Traversal 
+{
+	private static List<List<Integer>> zigzag_Order(TreeNode root)
+	{
+		private static List<List<Integer>> zigzag_Order(TreeNode root) {
+	        List<List<Integer>> result = new ArrayList<>();
+	        
+	        // If tree is empty, return empty result
+	        if (root == null) {
+	            return result;
+	        }
+	        
+	        // Use a queue for standard level order traversal
+	        Queue<TreeNode> queue = new LinkedList<>();
+	        queue.offer(root);
+	        
+	        // Flag to track direction: left to right or right to left
+	        boolean leftToRight = true;
+	        
+	        // While there are nodes to process
+	        while (!queue.isEmpty()) {
+	            int size = queue.size();
+	            // Use linked list to allow adding at both ends easily
+	            LinkedList<Integer> list = new LinkedList<>();
+	            
+	            // Process all nodes at the current level
+	            for (int i = 0; i < size; i++) {
+	                TreeNode current = queue.poll();
+	                
+	                // Add current node's value to list depending on direction
+	                if (leftToRight) {
+	                    list.addLast(current.val);  // Append at end
+	                } else {
+	                    list.addFirst(current.val); // Insert at beginning
+	                }
+	                
+	                // Add left and right children to queue for next level
+	                if (current.left != null) {
+	                    queue.offer(current.left);
+	                }
+	                if (current.right != null) {
+	                    queue.offer(current.right);
+	                }
+	            }
+	            
+	            // Add this level's list to the result
+	            result.add(list);
+	            // Flip direction for next level
+	            leftToRight = !leftToRight;
+	        }
+	        return result;
+	    }
+	}
+	
+	public static void main(String[] args) 
+	{
+        /*
+              1
+             / \
+            2   3
+           / \   \
+          4   5   6
+        */
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        root.right.right = new TreeNode(6);
+
+        List<List<Integer>> result = zigzag_Order(root);
+
+        System.out.println("Zigzag Level Order Traversal:");
+        for (List<Integer> level : result) {
+            System.out.println(level);
+        }
+    }
+
+}

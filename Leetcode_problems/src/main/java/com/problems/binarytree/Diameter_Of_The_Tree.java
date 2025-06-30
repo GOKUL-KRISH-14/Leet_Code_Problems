@@ -1,0 +1,29 @@
+package com.problems.binarytree;
+
+public class Diameter_Of_The_Tree
+{
+	private static int maxDiameter=0;
+	
+	private static int diameterTree(TreeNode root)
+	{
+		maxDiameter=0;
+		depth(root);
+		return maxDiameter;
+	}
+
+	private static int depth(TreeNode root) 
+	{
+		if(root==null)
+		{
+			return 0;
+		}
+		
+		int left_Height=depth(root.left);
+		int right_Height=depth(root.right);
+		
+		maxDiameter=Math.max(maxDiameter, left_Height+right_Height);
+		
+		return 1+Math.max(left_Height, right_Height);
+	}
+	
+}

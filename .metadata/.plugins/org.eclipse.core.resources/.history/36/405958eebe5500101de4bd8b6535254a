@@ -1,0 +1,37 @@
+package com.problems.array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Find_First_Non_Repeated_Number
+{
+	private static int first_Non_Repeated_Numbers(int nums[])
+	{
+		Map<Integer,Integer> map=new HashMap<>();
+		
+		for(int num:nums)
+		{
+			map.put(num, map.getOrDefault(num, 0)+1);
+		}
+		
+		for(int num:nums)
+		{
+			if(map.get(num)==1)
+			{
+				return num;
+			}
+		}
+		
+		return -1;
+	}
+	
+	public static void main(String args[])
+	{
+		int nums[]= {1,1,2,2,3,4};
+		
+		int result=first_Non_Repeated_Numbers(nums);
+		
+		System.out.println("THE FIRST NON-REPEATED NUMBERS IN THE ARRAY IS: "+result);
+	}
+
+}
