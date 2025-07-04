@@ -1,0 +1,68 @@
+package com.problems.dp;
+
+/*
+You are climbing a staircase. It takes n steps to reach the top.
+
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+Example 1:
+Input: n = 2
+Output: 2
+
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+
+Example 2:
+Input: n = 3
+Output: 3
+
+Explanation: There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
+ */
+
+public class Climbing_Stairs
+{
+	    // Function to calculate number of ways to climb n stairs
+	    private static int climbing_Stairs(int n)
+	    {
+	        // If there is 0 or 1 stair, there's only 1 way to stand there, but as per your code you return 0
+	        // Usually we return 1 for n == 0 or n == 1
+	        if (n <= 1)
+	        {
+	            return 0; // You may consider returning 1 if needed
+	        }
+
+	     // Ways to reach step (i-2), initially 1 way (for 0th or 1st step)
+	        int prev = 1; 
+	     // Ways to reach step (i-1), initially 1 way
+	        int curr = 1; 
+
+	        // Iterate from step 2 to n
+	        for (int i = 2; i <= n; i++)
+	        {
+	        	// Store previous value
+	            int temp = prev; 
+
+	         // Number of ways to reach current step = ways to (i-1) + ways to (i-2)
+	            curr = curr + prev; 
+
+	         // Move prev forward for next iteration
+	            prev = temp; 
+	        }
+	        
+	     // Return total ways to reach nth stair
+	        return curr; 
+	    }
+
+	    public static void main(String args[])
+	    {
+	        int n = 2; // Total number of stairs
+
+	        System.out.println("Climbing Stairs: " + climbing_Stairs(n)); // Print result
+	    }
+	}
+
+	

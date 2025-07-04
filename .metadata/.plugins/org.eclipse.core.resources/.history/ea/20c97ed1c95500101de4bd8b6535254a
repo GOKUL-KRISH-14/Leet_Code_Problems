@@ -1,0 +1,19 @@
+package com.problems.array;
+
+public class Missing_Number 
+{
+	private static int missingNumber(int nums[],int n)
+	{
+		int expectedSum=n*(n-1)/2;
+		
+		int actualSum=0;
+		
+		for(int num:nums)
+		{
+			actualSum+=num;
+		}
+		
+		return expectedSum-actualSum;
+	}
+
+}
