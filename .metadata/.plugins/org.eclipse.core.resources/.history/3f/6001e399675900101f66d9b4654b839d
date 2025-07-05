@@ -1,0 +1,42 @@
+package com.problems.dp;
+
+import java.util.Arrays;
+
+public class Coin_Change_Problem
+{
+	private static int coin_Change(int coins[],int amount)
+	{
+		// Initialize max value to represent infinity (amount + 1 is large enough)
+		int max=amount+1;
+		
+		// Create dp array to store minimum coins for each amount from 0 to amount
+		int dp[]=new int[max];
+		Arrays.fill(dp,max);
+		dp[0]=0;
+		
+		for(int i=1;i<=amount;i++)
+		{
+			for(int coin:coins)
+			{
+				if(coin<=i)
+				{
+				dp[i]=Math.min(dp[i], dp[i-coin]+1);
+			}
+		}
+		}
+		
+		return dp[amount]>amount?-1:dp[amount];
+	}
+	
+	public static void main(String args[])
+	{
+		int coins[]= {1,2,5};
+		int amount=11;
+		
+		int result=coin_Change(coins,amount);
+		
+		System.out.println("Coin Change Result: "+result);
+		
+	}
+
+}
