@@ -1,0 +1,16 @@
+package com.problems.dp2;
+
+/*
+Input: s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
+Output: true
+
+Explanation: 
+
+* Split s1 into s1 = "aa" + "bc" + "c", and s2 into s2 = "dbbc" + "a".
+* Interleaving the two splits, we get "aa" + "dbbc" + "bc" + "a" + "c" = "aadbbcbcac".
+* Since s3 can be obtained by interleaving s1 and s2, we return true.
+ */
+
+public class Interleaving_String {
+
+}

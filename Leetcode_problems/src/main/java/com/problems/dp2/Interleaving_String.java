@@ -1,0 +1,76 @@
+package com.problems.dp2;
+
+/*
+Input: s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
+Output: true
+
+Explanation: 
+
+* Split s1 into s1 = "aa" + "bc" + "c", and s2 into s2 = "dbbc" + "a".
+* Interleaving the two splits, we get "aa" + "dbbc" + "bc" + "a" + "c" = "aadbbcbcac".
+* Since s3 can be obtained by interleaving s1 and s2, we return true.
+ */
+
+public class Interleaving_String 
+{
+	private static boolean interleaving_String(String s1,String s2,String s3)
+	{
+		int m=s1.length();
+		int n=s2.length();
+		int l=s3.length();
+		
+		// If combined lengths don't match, it can't be an interleaving
+		if(m+n!=l)
+		{
+			return false;
+		}
+		
+		// dp[i][j] will be true if s3[0..i+j-1] can be formed by interleaving s1[0..i-1] and s2[0..j-1]
+		boolean dp[][]=new boolean[m+1][n+1];
+		
+		// Base case: empty s1 and empty s2 form empty s3
+		dp[0][0]=true;
+		
+		// Fill the first column (using only s1 to match s3 so far)
+		for(int i=1;i<=m;i++)
+		{
+			// Can form s3 prefix if previous prefix was true and current s1 char matches current s3 char
+			dp[i][0]=dp[i-1][0] && s1.charAt(i-1)==s3.charAt(i-1);
+		}
+		
+		// Fill the first row (using only s2 to match s3 so far)
+		for(int j=1;j<=n;j++)
+		{
+			// Can form s3 prefix if previous prefix was true and current s2 char matches current s3 char
+			dp[0][j]=dp[0][j-1] && s2.charAt(j-1)==s3.charAt(j-1);
+		}
+		
+		// Fill the rest of the dp table
+		for(int i=1;i<=m;i++)
+		{
+			for(int j=1;j<=n;j++)
+			{
+				 // Check if taking character from s1 works
+				boolean str_1=dp[i-1][j] && s1.charAt(i-1)==s3.charAt(i+j-1);
+						
+				 // Check if taking character from s2 works
+				boolean str_2=dp[i][j-1] && s2.charAt(j-1)==s3.charAt(i+j-1);
+				
+				 // If either option works, set current dp[i][j] as true
+				dp[i][j]=str_1||str_2;
+			}
+		}
+		// Final result is stored at dp[m][n]
+		return dp[m][n];
+	}
+	
+	public static void main(String args[])
+	{
+		String s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac";
+		
+		boolean result=interleaving_String(s1,s2,s3);
+		
+		System.out.println(result);
+
+}
+}

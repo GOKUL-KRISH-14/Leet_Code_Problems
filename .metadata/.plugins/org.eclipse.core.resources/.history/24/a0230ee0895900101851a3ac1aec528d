@@ -1,0 +1,80 @@
+package com.problems.dp2;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/*
+Given a triangle array, return the minimum path sum from top to bottom.
+
+For each step, you may move to an adjacent number of the row below. More formally, 
+if you are on index i on the current row, you may move to either index i or 
+index i + 1 on the next row.
+
+Example 1:
+Input: triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]
+Output: 11
+
+Explanation: The triangle looks like:
+   2
+  3 4
+ 6 5 7
+4 1 8 3
+
+Possible paths
+1️. 2 → 3 → 5 → 1 → Sum = 2 + 3 + 5 + 1 = 11
+
+2️. 2 → 3 → 5 → 8 → Sum = 2 + 3 + 5 + 8 = 18
+
+3️. 2 → 3 → 6 → 4 → Sum = 2 + 3 + 6 + 4 = 15
+
+4️. 2 → 4 → 5 → 1 → Sum = 2 + 4 + 5 + 1 = 12
+
+5️. 2 → 4 → 7 → 3 → Sum = 2 + 4 + 7 + 3 = 16
+
+The minimum path sum from top to bottom is 2 + 3 + 5 + 1 = 11 (underlined above).
+
+ */
+
+
+public class Triangle 
+{
+	private static int minPathTriangle(List<List<Integer>> triangle)
+	{
+		// Get the total number of rows in the triangle
+		int n=triangle.size();
+		
+		// Start from the second-last row and move upwards
+		for(int row=n-2;row>=0;row--)
+		{
+			// Traverse all elements in the current row
+			for(int col=0;col<triangle.get(row).size();col++)
+			{
+				// Get the current value at (row, col)
+				int current_Value=triangle.get(row).get(col);
+				int minSum=Math.min(triangle.get(row+1).get(col),triangle.get(row+1).get(col+1));
+				triangle.get(row).set(col, current_Value+minSum);
+			}
+		}
+		return triangle.get(0).get(0);
+	}
+	
+    public static void main(String[] args)
+    {
+        // Example triangle
+        List<List<Integer>> triangle = new ArrayList<>();
+        triangle.add(Arrays.asList(2));
+        triangle.add(Arrays.asList(3, 4));
+        triangle.add(Arrays.asList(6, 5, 7));
+        triangle.add(Arrays.asList(4, 1, 8, 3));
+
+        // Call function
+        int result = minPathTriangle(triangle);
+
+        // Print result
+        System.out.println("Minimum Path Sum from Top to Bottom: " + result);
+    }
+}
+	
+	
+
